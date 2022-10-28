@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Code](https://github.com/beqa200/Tic-Tac-Toe)
+- Live Site URL: [GitHub Live](https://beqa200.github.io/Tic-Tac-Toe/)
 
 ## My process
 
