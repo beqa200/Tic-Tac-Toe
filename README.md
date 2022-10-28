@@ -38,3 +38,6 @@ Users should be able to:
 I learned how to make different functionalities with JS and also improved my skilles at DOM Manipulations. Also I understand how to make a simple logic for computer.
 
 
+### Author
+
+ - [LinkedIn](https://www.linkedin.com/in/beqa-maisuradze-76a730234/)
