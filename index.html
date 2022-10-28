@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <div id="index-page">
+    <div class="logo1" >
+      <img src="./assets/images/logo.svg" />
+    </div>
+
+    <div class="pick-player">
+      <p class="pick">PICK PLAYER 1’S MARK</p>
+      
+      <div class="for-flex">
+     
+        <div>
+          <img src="./assets/images/icon-x-start.svg" />
+          <img style="display: none" src="./assets/images/icon-x-selected.svg" />
+        </div>
+      
+        <div>
+          <img src="./assets/images/icon-o-start.svg" />
+          <img style="display: none" src="./assets/images/icon-o-selected.svg" />
+        </div>
+      
+        
+      </div>
+  
+        <p class="remember">REMEMBER : X GOES FIRST</p>
+    </div>
+
+    <button class="vs-cpu">NEW GAME (VS CPU)</button>
+    <button class="vs-player">NEW GAME  (VS PLAYER)</button>
+ 
+  </div>
+
+
+
+  <div id = "vsplayer-page">
+    <header>
+      <img class="logo" src="./assets/images/logo.svg" />
+      <div class="turn">
+        <img src="./assets/images/icon-x-start.svg" />
+        <img style="display: none" src="./assets/images/icon-o-start.svg" />     
+        <p>TURN</p>                                 
+      </div> 
+
+      <div class="restart">
+        <img src="./assets/images/icon-restart.svg" />
+      </div>  
+    </header>
+      
+      
+    <div class="main">
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+      
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+      
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+      
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+        
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+      
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+      
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div>
+      
+      <div>
+        <img class="x" src="./assets/images/icon-x.svg" />
+        <img class="o" src="./assets/images/icon-o.svg" />
+        <img class="x-win" src="./assets/images/icon-x-win.svg" />
+        <img class="o-win" src="./assets/images/icon-o-win.svg" />      
+        <img class="x-outline" src="./assets/images/icon-x-outline.svg" />
+        <img class="o-outline" src="./assets/images/icon-o-outline.svg" />
+      </div> 
+    </div>
+  
+  
+    <div class="score">
+      <div class="x-score">
+        <p class = "p1">X (P2)</p>
+        <p class= "x-score-p">0</p>
+      </div>
+  
+      <div class="ties-score">
+        <p class = "p1">TIES</p>
+        <p class= "ties-score-p">0</p>
+      </div>
+  
+      <div class="o-score">
+        <p class = "p1">O (P1)</p>
+        <p class= "o-score-p">0</p>
+      </div>
+    </div>
+  
+  
+    <div class="restart-div">
+      <h2>RESTART GAME?</h2>
+      <div class="for-flex2">
+        <button class="cancel-button">NO, CANCEL</button>
+        <button class="restart-button">YES, RESTART</button>
+      </div>      
+    </div>
+  
+    <div class="win-div">
+      <p>PLAYER 2 WINS!</p>
+          
+      <div>
+        <img src="./assets/images/icon-x.svg" />
+        <img style="display: none;" src="./assets/images/icon-o.svg" />
+        <h2>TAKES THE ROUND</h2>
+        <h2 class="tied">ROUND TIED</h2>
+      </div>
+      <button class="quit-button">QUIT</button>;        
+      <button class="next-button">NEXT ROUND</button>
+          
+    </div>
+  </div>
+          
+
+  <script src="index.js"></script>
+
+</body>
+</html>
