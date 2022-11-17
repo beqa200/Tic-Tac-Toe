@@ -193,6 +193,7 @@ pick[1].addEventListener("click", () => {
             for(var i = 0; i < cube.length; i++) {
                 cube[i].querySelector('.x').style.display = "none";
                 cube[i].style.pointerEvents = "auto";  
+                cube[i].removeEventListener("click", main3);
             } 
             count = 0;
             arrX = [];
