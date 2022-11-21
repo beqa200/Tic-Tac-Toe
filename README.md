@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Code](https://github.com/beqa200/Tic-Tac-Toe)
-- Live Site URL: [GitHub Live](https://beqa200.github.io/Tic-Tac-Toe/)
+- Live Site URL: [GitHub Live](https://beqa200.github.io/tic-tac-toe/)
 
 ## My process
 
